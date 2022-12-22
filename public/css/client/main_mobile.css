@@ -1,0 +1,355 @@
+@media (max-width: 1000px) {
+    #logo img {
+        width: 9vw;
+    }
+
+    #logo span {
+        font-size: 6vw;
+        padding-left: 2vw;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    #one {
+        margin: 8vw 12vw;
+    }
+
+    #two .block.right {
+        margin-left: auto;
+        text-align: start;
+    }
+
+    #two {
+        flex-direction: column-reverse;
+    }
+
+    #two .image {
+        width: 70%
+    }
+
+    .title {
+        font-size: 6.5vw;
+        margin-bottom: 5vw;
+        line-height: 7vw;
+    }
+
+    .block {
+        font-size: 3.5vw;
+        line-height: 4vw;
+    }
+
+    .image {
+        width: 70%;
+    }
+
+    .bg {
+        width: 56vw;
+        height: 35vw;
+    }
+
+    #fiat {
+        margin-right: 0;
+        margin-bottom: 2vw;
+    }
+
+    #stable {
+        margin-left : 0;
+    }
+
+    .banners #bottom {
+        flex-direction: column;
+    }
+
+    #banner {
+        width: 45vw;
+    }
+
+    #four .center_text {
+        width: auto;
+    }
+
+    #six .row {
+        flex-direction: column;
+    }
+
+    #six .card {
+        width: 65vw;
+        font-size: 2.5vw;
+        height: auto;
+    }
+
+    #six .card .title {
+        text-align: center;
+        margin-bottom: 2vw;
+        font-size: 6vw;
+    }
+
+    #six .card .line {
+        margin-bottom: 1vw;
+    }
+
+    .text div {
+        margin: 0 3vw;
+        margin-bottom: 3vw;
+        width: auto;
+        margin: 0 3vw;
+        margin-bottom: 3vw;
+    }
+
+    #six .card:nth-child(2) {
+        margin: 4vw 0;
+    }
+
+    #seven .image {
+        display: none;
+    }
+
+    #seven {
+        margin: 6vw 6vw;
+    }
+
+    #seven .block div {
+        line-height: 6vw;
+    }
+
+    #pc {
+        display: none;
+    }
+
+    tr:nth-child(odd) {
+        background: #f6f6f6;
+    }
+
+    .price-coin:nth-child(2) {
+        opacity: 0;
+        height: 4vw;
+    }
+
+    .price-coin:nth-child(3) {
+        display: none;
+    }
+
+    .price-coin:nth-child(4) {
+        display: none;
+    }
+
+    .logo-coin a {
+        height: 18vw;
+    }
+
+    .logo-coin a img {
+        width: 13vw;
+    }
+
+    .logo-coin a {
+        font-size: 7vw;
+    }
+
+    .logo-coin a p {
+        margin-left: 5vw;
+    }
+
+    .logo-coin .block {
+        padding-left: 7vw;
+    }
+
+    .price-coin .price {
+        width: 100%;
+        display: none;
+    }
+
+    .list-coins tr {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    section .table {
+        box-shadow: none;
+    }
+
+    .logo-coin {
+        background: #f6f6f6;
+        box-shadow: 0px 9px 6px 0px #acacac;
+    }
+
+    #seven .block {
+        font-size: 4vw;
+    }
+
+    #mobile {
+        display: grid;
+    }
+
+    #mobile td, #mobile th {
+        display: flex;
+        font-size: 4vw;
+        padding: 2vw 0vw;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #mobile th {
+        box-shadow: 0px 0px 6px 0px #c6c6c6;
+    }
+
+    #mobile td {
+        font-size: 3vw;
+    }
+
+    tr:nth-child(odd) {
+        background: #f1f1f1;
+    }
+
+    tr:nth-child(even) {
+        background: #ffffff;
+    }
+
+    #mobile td:nth-child(2) {
+        background-color: #f6f6f6;
+        width: 0vw;
+        padding: 1vw;
+    }
+
+    .table {
+        display: flex;
+        justify-content: center;
+    }
+
+    #nine .block.left {
+        margin-left: 0;
+        margin-top: 4vw;
+    }
+
+    #nine .block.left .title {
+        display: none;
+    }
+
+    #nine .title-mobile {
+        display: flex;
+        font-size: 7vw
+    }
+
+    #description {
+        display: flex;
+        align-items: center;
+    }
+
+    #description img {
+        width: 30vw;
+    }
+
+    #description .price {
+        font-size: 3.7vw;
+    }
+
+    #five .wallet .center_align:nth-child(1) {
+        flex-direction: column;
+    }
+
+    #five .wallet .center_align:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    #anonymous {
+        box-shadow: not;
+        animation: render 2s ease-in-out infinite;
+    }
+
+    #fiat {
+        box-shadow: not;
+        animation: render 2s ease-in-out infinite;
+    }
+
+    #stable {
+        box-shadow: not;
+        animation: render 2s ease-in-out infinite;
+    }
+
+    @keyframes render {
+        0% {
+            box-shadow: 3px 7px 9px 1px #8f8f8f;
+        }
+
+        50% {
+            box-shadow: 3px 7px 9px 1px #c3c3c3;
+        }
+
+        100% {
+            box-shadow: 3px 7px 9px 1px #8f8f8f;
+        }
+    }
+
+    #eight #title-table {
+        display: none;
+    }
+
+    #eight tr:nth-child(odd) {
+        background: #f6f6f6;
+    }
+
+    #eight tr:nth-child(even) {
+        background: #f6f6f6;
+    }
+
+    #eight .logo-coin .block {
+        padding-left: 7vw;
+        line-height: 7vw;
+    }
+
+    #eight .list-coins tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #eight .price-coin:nth-child(2) {
+        opacity: 1;
+
+    }
+
+    #eight .price-coin .price:nth-child(2) {
+        opacity: 0;
+    }
+
+    #nine, #ten {
+        margin: 6vw 8vw;
+    }
+
+    #btn {
+        margin-top: 3vw;
+        background-color: #f6f6f6;
+        width: 40vw;
+        height: 10vw;
+        color: black;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6vw;
+        box-shadow: 0px 5px 13px 0px #dbdbdb;
+    }
+
+    #error {
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    #error .block {
+        width: 90%;
+        height: 60vw;
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+
+    #close {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #close img {
+        width: 15vw;
+    }
+}
