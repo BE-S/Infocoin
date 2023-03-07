@@ -9,6 +9,9 @@
 
 ## InfoCoin
 
-InfoCoin is a website for cheking the rate of cryptocurrencies. This site uses API, so it doesn't work compelety because api is paid. 
+InfoCoin is a website for cheking the rate of cryptocurrencies. You can check over 100 cryptocurrencies but this site uses API coingecko, so it doesn't work compelety because api is paid.
+
 <a href="https://www.coingecko.com/ru/api">Link on API</a>
 
+___
+[My Telegram](https://t.me/BESpalikov)
